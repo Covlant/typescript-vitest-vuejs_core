@@ -37,7 +37,7 @@ export default defineConfig({
       include: ['packages/*/src/**'],
       exclude: [
         // entries that are not really used during tests
-        'packages/vue-compat/**',
+        // 'packages/vue-compat/**',
         'packages/vue/src/dev.ts',
         'packages/vue/src/runtime.ts',
         // not testable during unit tests
